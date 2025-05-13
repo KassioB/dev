@@ -1,0 +1,39 @@
+main{
+  display:flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+.content{
+ max-width: 800px;
+ display: flex;
+ flex-direction: column;
+ gap: 1.2em;
+
+  .list{
+    display:flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
+.input-container {
+  display: flex;
+  gap: 0.8em;
+
+}
+
+.footer{
+ flex-direction: column;
+ gap: 0.4em;
+}
+
+.counter{
+  font-weight: 600;
+  font-style:italic
+}
+
+.message{
+  color: #b1b1b1
+}
